@@ -1,9 +1,13 @@
 {
   "name": "nanobits-react",
   "version": "1.0.0-alpha.0",
-  "description": "> TODO: description",
+  "description": "React UI with Bootstrap support.",
   "author": "Tinkeshwar <tinkeshwar@gmail.com>",
-  "homepage": "",
+  "homepage": "https://nanobits.in/react-ui",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tinkeshwar/nanobits-react-ui"
+  },
   "license": "ISC",
   "main": "lib/index.js",
   "directories": {

@@ -1,11 +1,10 @@
 # `nanobits-react`
 
-> TODO: description
+> TODO: In progress
 
 ## Usage
 
 ```
-const nanobitsReact = require('nanobits-react');
-
-// TODO: DEMONSTRATE API
+import { } from 'nanobits-react';
+TODO: DEMONSTRATE API
 ```
