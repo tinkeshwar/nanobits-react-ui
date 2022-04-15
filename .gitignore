@@ -3,3 +3,5 @@ example
 package-lock.json
 yarn.lock
 lib
+
+lerna-debug.log
