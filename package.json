@@ -4,6 +4,9 @@
   "workspaces": [
     "packages/*"
   ],
+  "scripts": {
+    "release": "yarn install && lerna publish && yarn clean"
+  },
   "devDependencies": {
     "lerna": "^4.0.0"
   }
