@@ -5,9 +5,12 @@
     "packages/*"
   ],
   "scripts": {
-    "release": "yarn install && lerna publish && yarn clean"
+    "release": "yarn install && lerna publish && lerna clean"
   },
   "devDependencies": {
     "lerna": "^4.0.0"
+  },
+  "dependencies": {
+    "@lerna/clean": "^4.0.0"
   }
 }
