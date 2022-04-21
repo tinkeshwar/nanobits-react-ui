@@ -1,0 +1,39 @@
+{
+  "name": "nanobits-react-fa-icon",
+  "version": "1.0.0",
+  "description": "Font Awesome icon support in nanobit-react-ui",
+  "author": "Tinkeshwar <tinkeshwar@gmail.com>",
+  "homepage": "https://github.com/tinkeshwar/nanobits-react-ui#readme",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tinkeshwar/nanobits-react-ui.git"
+  },
+  "scripts": {
+    "sass": "node-sass src/ -o lib/",
+    "start": "tsc",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/tinkeshwar/nanobits-react-ui/issues"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.1.1",
+    "@fortawesome/free-brands-svg-icons": "^6.1.1",
+    "@fortawesome/free-regular-svg-icons": "^6.1.1",
+    "@fortawesome/free-solid-svg-icons": "^6.1.1",
+    "@fortawesome/react-fontawesome": "^0.1.18"
+  }
+}
