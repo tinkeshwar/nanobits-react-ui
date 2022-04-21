@@ -4,15 +4,13 @@
   "description": "Font Awesome icon support in nanobit-react-ui",
   "author": "Tinkeshwar <tinkeshwar@gmail.com>",
   "license": "MIT",
-  "main": "lib/index.js",
-  "typings": "src/index.ts",
+  "main": "lib/index",
+  "typings": "src/index",
   "types": "lib/index.d.ts",
   "homepage": "https://nanobits.in/react-ui",
-  "directories": {
-    "lib": "lib"
-  },
   "files": [
-    "lib"
+    "lib",
+    "src"
   ],
   "repository": {
     "type": "git",

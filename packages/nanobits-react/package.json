@@ -3,7 +3,8 @@
   "version": "1.0.4-alpha.0",
   "description": "React UI with Bootstrap support.",
   "author": "Tinkeshwar <tinkeshwar@gmail.com>",
-  "typings": "src/index.ts",
+  "main": "lib/index",
+  "typings": "src/index",
   "types": "lib/index.d.ts",
   "homepage": "https://nanobits.in/react-ui",
   "repository": {
@@ -11,12 +12,9 @@
     "url": "git+https://github.com/tinkeshwar/nanobits-react-ui"
   },
   "license": "MIT",
-  "main": "lib/index.js",
-  "directories": {
-    "lib": "lib"
-  },
   "files": [
-    "lib"
+    "lib",
+    "src"
   ],
   "scripts": {
     "sass": "node-sass src/ -o lib/",
